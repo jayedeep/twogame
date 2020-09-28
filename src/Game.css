@@ -1,0 +1,200 @@
+.uppermain {
+  height: 5em;
+  background-image: linear-gradient(to bottom, #d1d9dd, #5b6872);
+}
+
+.uppermain h1 {
+  font-size: 3em;
+  font-weight: 300;
+  font-style: oblique;
+  font: bold;
+}
+
+.midmain {
+  height: 60vh;
+  background-image: linear-gradient(#434343, #000000);
+  position: relative;
+}
+
+.midofmid {
+  height: 50vh;
+  width: 80vw;
+  background-color: rgba(80, 218, 38, 0.979);
+  -webkit-box-shadow: 10px 21px 43px 6px rgba(84, 125, 80, 1);
+  -moz-box-shadow: 10px 21px 43px 6px rgba(84, 125, 80, 1);
+  box-shadow: 10px 21px 43px 6px rgba(84, 125, 80, 1);
+  border-radius: 40px;
+}
+.scoretext {
+  font-size: 0.5em;
+  font-weight: 600;
+  text-shadow: 5px 5px 4px #081313;
+}
+
+.maintext {
+  font-size: 3em;
+  font-weight: 600;
+  text-shadow: 5px 5px 4px #f8fafa;
+}
+
+.headingtext {
+  color: #d1d9dd;
+  text-align: center;
+  position: relative;
+  font-size: 1em;
+  font-weight: 600;
+  text-shadow: 5px 5px 4px #141818;
+}
+
+.h5 {
+  font-size: 2em;
+}
+.scoretext2 {
+  font-size: 2em;
+  font-weight: 600;
+  text-shadow: 5px 5px 4px #081313;
+}
+
+.btnrw {
+  text-align: center;
+  font-size: 2em;
+  font: bold;
+  font-style: italic;
+  width: 35vw;
+  height: 10vh;
+  background-color: rgba(5, 82, 9, 0.89);
+  border-radius: 15%;
+  -webkit-box-shadow: 10px 21px 43px 6px rgb(3, 7, 2);
+  -moz-box-shadow: 10px 21px 43px 6px rgb(3, 7, 2);
+  box-shadow: 10px 21px 43px 6px rgb(3, 7, 2);
+  border-radius: 40px;
+}
+
+.btnlast {
+  text-align: center;
+  font-size: 2em;
+  font: bold;
+  font-style: italic;
+  width: 55vw;
+  height: 10vh;
+  background-color: rgba(5, 82, 9, 0.89);
+  border-radius: 15%;
+  -webkit-box-shadow: 10px 21px 43px 6px rgb(3, 7, 2);
+  -moz-box-shadow: 10px 21px 43px 6px rgb(3, 7, 2);
+  box-shadow: 10px 21px 43px 6px rgb(3, 7, 2);
+  border-radius: 40px;
+}
+
+@media (min-width: 576px) {
+  .uppermain {
+    height: 7em;
+    background-image: linear-gradient(to bottom, #d1d9dd, #5b6872);
+  }
+  .uppermain h1 {
+    font-weight: 300;
+    font-style: oblique;
+    font: bold;
+    font-size: 4em;
+  }
+  .midmain {
+    height: 70vh;
+    background-image: linear-gradient(#434343, #000000);
+    position: relative;
+  }
+
+  .midofmid {
+    height: 60vh;
+    width: 85vw;
+    background-color: rgba(80, 218, 38, 0.979);
+    -webkit-box-shadow: 10px 21px 43px 6px rgba(84, 125, 80, 1);
+    -moz-box-shadow: 10px 21px 43px 6px rgba(84, 125, 80, 1);
+    box-shadow: 10px 21px 43px 6px rgba(84, 125, 80, 1);
+    border-radius: 40px;
+  }
+  .scoretext {
+    font-size: 1em;
+    font-weight: 600;
+    text-shadow: 5px 5px 4px #081313;
+  }
+
+  .scoretext2 {
+    font-size: 4em;
+    font-weight: 600;
+    text-shadow: 5px 5px 4px #081313;
+  }
+
+  .maintext {
+    font-size: 5em;
+    font-weight: 600;
+    text-shadow: 5px 5px 4px #f8fafa;
+  }
+  .headingtext {
+    color: #d1d9dd;
+    text-align: center;
+    position: relative;
+    font-size: 2em;
+    font-weight: 600;
+    text-shadow: 5px 5px 4px #141818;
+  }
+
+  .btnlast {
+    text-align: center;
+    font-size: 2em;
+    font: bold;
+    font-style: italic;
+    width: 30vw;
+    height: 10vh;
+    background-color: rgba(5, 82, 9, 0.89);
+    border-radius: 15%;
+    -webkit-box-shadow: 10px 21px 43px 6px rgb(3, 7, 2);
+    -moz-box-shadow: 10px 21px 43px 6px rgb(3, 7, 2);
+    box-shadow: 10px 21px 43px 6px rgb(3, 7, 2);
+    border-radius: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .uppermain {
+    height: 9em;
+    background-image: linear-gradient(to bottom, #d1d9dd, #5b6872);
+  }
+  .uppermain h1 {
+    font-weight: 300;
+    font-style: oblique;
+    font: bold;
+    font-size: 5em;
+  }
+  .midmain {
+    height: 80vh;
+    background-image: linear-gradient(#434343, #000000);
+    position: relative;
+  }
+}
+
+.scoretext {
+  font-size: 4em;
+  font-weight: 600;
+  text-shadow: 5px 5px 4px #081313;
+}
+
+.maintext {
+  font-size: 5em;
+  font-weight: 600;
+  text-shadow: 5px 5px 4px #f8fafa;
+}
+
+.Play-again {
+  background-color: rgba(17, 8, 102, 0.89);
+}
+
+.Play-again:hover {
+  background-color: rgba(90, 80, 180, 0.89);
+}
+
+.ptag {
+  font-size: 1em;
+  color: #d1d9dd;
+}
+
+h5 {
+  text-shadow: 5px 5px 4px #081313;
+}

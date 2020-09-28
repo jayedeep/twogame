@@ -1,0 +1,61 @@
+.MainHelper {
+  margin-top: 8%;
+  width: 80vw;
+  height: 100vh;
+  background: linear-gradient(350deg, #db22b3 20%, #b99cb5, #644e5f);
+  border-radius: 2%;
+  -webkit-box-shadow: 10px 13px 25px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 13px 25px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 13px 25px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btntext {
+  font-size: 4vh;
+}
+#btns {
+  background: linear-gradient(rgb(79, 190, 79), black);
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 13px 25px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 13px 25px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 13px 25px 0px rgba(0, 0, 0, 0.75);
+}
+#btns:hover {
+  transform: scale(1.3);
+  transition: transform 1s;
+
+  background-color: #4ed35f;
+}
+
+.h1tagin {
+  font-size: 1.8em;
+  margin-top: 20%;
+}
+
+@media (min-width: 544px) {
+  .h1tagin {
+    font-size: 2.2em;
+  } /*1rem = 16px*/
+}
+@media (min-width: 768px) {
+  .h1tagin {
+    font-size: 2.5em;
+  } /*1rem = 16px*/
+}
+@media (min-width: 992px) {
+  .h1tagin {
+    font-size: 2.8em;
+  } /*1rem = 16px*/
+}
+@media (min-width: 1200px) {
+  .h1tagin {
+    font-size: 3em;
+  } /*1rem = 16px*/
+}
+
+.forhover:hover {
+  color: white;
+  font-style: bold;
+  text-shadow: 0 0 6px #ff0000, 0 0 8px #0000ff;
+  transition: color 1s;
+}

@@ -1,0 +1,10 @@
+.progress {
+  height: 3em;
+}
+
+p {
+  text-align: center;
+  font-size: 3em;
+  align-items: center;
+  padding-top: 0.2em;
+}
